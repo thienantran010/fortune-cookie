@@ -1,0 +1,18 @@
+I wanted experience manipulating the DOM and using APIs so I made this fortune cookie.
+
+The hardest part of this project was creating the darkened background and pop-up message with the fortune. I first tried making it in JavaScript with appendChild()
+and classList.add() but it was too tedious so I switched to just making it in HTML and CSS. However, that didn't work out so I found a great alternative - modals. I left
+some of my past attempts in the code, commeneted out.
+
+I used a lot of code from this tutorial to make the modal: https://sabe.io/tutorials/how-to-create-modal-popup-box and changed some parts. It worked out nicely.
+
+The API gave me a little trouble. I kept getting undefined when printing the results to console, but apparently after you do response.json(), it gives you a slip
+object with another slip object inside. To get the advice, you needed to do slip['slip]['advice'] instead of slip['advice'].
+
+What I Learned:
+DOM manipulation
+Promises / fetch API / third party APIs
+
+What I want to Learn next:
+Use more complex APIs
+Frameworks (REACT????)
