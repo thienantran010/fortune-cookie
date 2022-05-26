@@ -69,6 +69,8 @@ function changeImage() {
 function reset() {
     clickCount = 0;
     changeImage();
+    text = document.querySelector("h2");
+    text.innerText = "";
 }
 
 let clickCount = 1;
